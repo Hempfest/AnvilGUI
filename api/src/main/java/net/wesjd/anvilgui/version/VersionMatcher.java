@@ -1,9 +1,8 @@
 package net.wesjd.anvilgui.version;
 
-import org.bukkit.Bukkit;
-
 import java.util.Arrays;
 import java.util.List;
+import org.bukkit.Bukkit;
 
 /**
  * Matches the server's NMS version to its {@link VersionWrapper}
@@ -36,7 +35,8 @@ public class VersionMatcher {
             Wrapper1_15_R1.class,
             Wrapper1_16_R1.class,
             Wrapper1_16_R2.class,
-            Wrapper1_16_R3.class
+            Wrapper1_16_R3.class,
+            Wrapper1_16_R5.class
     );
 
     /**
